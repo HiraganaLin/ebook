@@ -1,0 +1,25 @@
+{
+  "name": "sdp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js",
+    "clean": "tsc --build --clean"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-menu": "^0.1.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.5",
+    "prompt-sync": "^4.2.0",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.4",
+    "@types/prompt-sync": "^4.2.0"
+  }
+}
